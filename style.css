@@ -1,0 +1,60 @@
+#MainSketch {
+    display: flex;
+    padding: 16px;
+    background-color: brown;
+    border: 2px solid black;
+    flex-grow: 1;
+    justify-content: center;
+ }
+ .left {
+    font-size: 32px;
+ }
+ .right {
+    font-size: 20px;
+    display: flex;
+    padding: 8px;
+    gap: 8px;
+ }
+ #Header {
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: beige;
+    padding: 4px;
+ }
+ body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-between;
+    min-height: 100vh;
+ }
+ a {
+    text-decoration: none;
+    color: black;
+ }
+ #Changes {
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+ }
+ #EtchASketchSquares {
+    height: 640px;
+    width: 640px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+ }
+ .Startsquare {
+    height: 40px;
+    width: 40px;
+    border: 1px, solid, black;
+    box-sizing: border-box;
+ }
+ .affectedSquare {
+    background-color: black;
+ }
